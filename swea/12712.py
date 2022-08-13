@@ -11,7 +11,7 @@ for tc in range(1, T+1):
     dr = [0, 1, 0, -1, -1, 1, 1, -1]
     dc = [1, 0, -1, 0, 1, 1, -1, -1]
 
-    max_flies = 0
+    max_flies = 0 # 최대 파리 합
     for i in range(N):
         for j in range(N):
             sum = arr[i][j] # 중앙값 초기화
