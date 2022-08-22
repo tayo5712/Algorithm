@@ -18,3 +18,4 @@ for i in K:
         exit(0)
 
 print('\n'.join(result))
+
