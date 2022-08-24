@@ -1,7 +1,6 @@
 def n_queens(i):
     global cnt
     if i == n:
-        print(col)
         cnt += 1
         return
 
