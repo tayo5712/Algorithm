@@ -8,7 +8,7 @@ for tc in range(1, T+1):
     num = [list(map(int, input().split())) for _ in range(N)]
     maxV = 0
 
-    for i in range(N): # 행 계산
+    for i in range(N): # 행 계산git
         cnt = 0
         for j in range(M):
             if num[i][j] == 1:

@@ -1,4 +1,5 @@
 
+
 def selection(value):
     minV = 100001
     for row in range(N):
@@ -36,7 +37,6 @@ for _ in range(N*N):
     curR = curR + dr[d]
     curC = curC + dc[d]
 
-print(check)
 print(arr)
 
 
