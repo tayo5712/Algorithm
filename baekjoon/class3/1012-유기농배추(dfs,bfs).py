@@ -34,19 +34,17 @@
 #     bfs(st)
 #     print(cnt)
 
-
-
 # dfs 풀이 (메모리 : 184460KB, 시간 : 264ms)
 import sys
 input = sys.stdin.readline
 
 def dfs(i, j):
-    if i < 0 or i >= n or j < 0 or j >= m or not world[i][j]:
+    if i < 0 or i >= n or j < 0 or j >= m or not world[i][j]:  # i, j 값이 범위 밖이거나 1이 아니면 continue
         return False
-    world[i][j] = 0
-    for di, dj in [[1, 0], [-1, 0], [0, 1], [0, -1]]:
+    world[i][j] = 0     # 1인 자리 0으로 지워나감 (방문표시)
+    for di, dj in [[1, 0], [-1, 0], [0, 1], [0, -1]]:   # 상하좌우 dfs 재귀 확인
         dfs(i+di, j+dj)
-    return True
+    return True     # 전부 다 돌고나서 True 반환해줘서 cnt +=1 해줌
 
 t = int(input())
 for _ in range(t):
@@ -60,7 +58,7 @@ for _ in range(t):
     cnt = 0
     for i in range(n):
         for j in range(m):
-            if dfs(i, j):
+            if dfs(i, j):       # 해당 1 좌표에대한 dfs를 돌고 True가 반환되면 cnt += 1
                 cnt += 1
     print(cnt)
 
