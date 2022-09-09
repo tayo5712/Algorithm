@@ -24,9 +24,8 @@ while n != 0:
 print(cnt)
 
 
-
+# 초고수가 푼 비트연산 방법
 # n,r,c=map(int,input().split());print(int(f'{c:b}',4)+2*int(f'{r:b}',4))
-print(int(f'{10:b}', 4))
 
 # 메모리 초과 (브루트포스)
 # n, r, c = map(int, input().split())
