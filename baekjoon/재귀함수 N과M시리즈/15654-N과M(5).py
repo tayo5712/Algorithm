@@ -1,13 +1,4 @@
 # 순열
-
-# from itertools import permutations
-#
-# n, m = map(int, input().split())
-# for i in permutations(list(range(1, n+1)), m):
-#     print(*i)
-#
-
-
 def per(k):
     if k == m:
         for i in range(m):
@@ -22,7 +13,7 @@ def per(k):
                 visited[i] = False
 
 n, m = map(int, input().split())
-a = list(range(1, n+1))
+a = list(sorted(map(int, input().split())))
 b = [-1] * m
 visited = [False] * n
 per(0)

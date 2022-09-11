@@ -1,18 +1,15 @@
 # 순열
 
-# from itertools import permutations
-#
-# n, m = map(int, input().split())
-# for i in permutations(list(range(1, n+1)), m):
-#     print(*i)
-#
-
-
 def per(k):
+    global result
     if k == m:
+        lst = []
         for i in range(m):
-            print(a[b[i]], end=' ')
-        print()
+            lst.append(a[b[i]])
+        lst2 = tuple(lst)
+        if lst2 not in result:
+            result[lst2] = 1
+            print(*lst2)
     else:
         for i in range(n):
             if not visited[i]:
@@ -22,7 +19,8 @@ def per(k):
                 visited[i] = False
 
 n, m = map(int, input().split())
-a = list(range(1, n+1))
+a = list(sorted(map(int, input().split())))
 b = [-1] * m
+result = {}
 visited = [False] * n
 per(0)
