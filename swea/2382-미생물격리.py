@@ -7,8 +7,6 @@ sys.stdin = open("input_2382.txt", "r")
 
 for tc in range(1, int(input())+1):
     n, m, k = map(int,input().split())
-    zone = [[0 for _ in range(n)] for _ in range(n)]
-
     cell_info = [list(map(int, input().split())) for _ in range(k)]
     for time in range(m):   # 시간
         cell_info.sort(key=lambda x:x[2])   # 미생물 수를 기준으로 정렬
