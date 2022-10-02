@@ -9,6 +9,7 @@
 
 
 def per(k):
+
     if k == m:
         for i in range(m):
             print(a[b[i]], end=' ')
@@ -26,3 +27,4 @@ a = list(range(1, n+1))
 b = [-1] * m
 visited = [False] * n
 per(0)
+w
