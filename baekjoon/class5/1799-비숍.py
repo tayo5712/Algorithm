@@ -1,24 +1,32 @@
-def n_queens(i):
-    global cnt
-    if i == n:
-        cnt += 1
-        return
+import sys
+input = sys.stdin.readline
 
+N = int(input())
+board = [list(map(int, input().split())) for _ in range(N)]
+visited = [0] * (2*N-1)
+num, ans = 0, 0
+total = 0
+
+def checking(n):
+    if n >= 2 * N-1:
+        return 0
+    ans = -1
+    if n < N:
+        x = n
+        y = 0
     else:
-        for j in range(n):
-            col[i] = j
-            if promising(i):
-                n_queens(i+1)
+        x = N-1
+        y = n-(N-1)
 
-def promising(i):
-    for j in range(i):
-        if col[i] == col[j] or abs(col[i]-col[j]) == (i - j):
-            return False
-    return True
-
-n = int(input())
-board = [list(map(int, input().split())) for _ in range(n)]
-col = [0] * n
-cnt = 0
-n_queens(0)
-print(cnt)
+    while x >= 0 and y < N:
+        if board[x][y] and not visited[y-x+N-1]:
+            visited[y-x+N-1] = 1
+            num = checking(n+2)+1
+            ans = max(ans, num)
+            visited[y-x+N-1] = 0
+        x -= 1
+        y += 1
+    if ans < 0:
+        ans = checking(n+2)
+    return ans
+print(checking(0)+checking(1))
