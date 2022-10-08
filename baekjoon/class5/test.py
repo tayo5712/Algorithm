@@ -46,4 +46,5 @@ for i in range(a):
             answer += 1
 print(right)
 print(left)
+print(visited)
 print(answer)
