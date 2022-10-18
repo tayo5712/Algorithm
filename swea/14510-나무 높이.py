@@ -28,3 +28,23 @@ for tc in range(1, int(input())+1):
     answer = cycle * 2 + max((odd-cycle) * 2 - 1, 0) + ((even-cycle) // 2 * 3) + ((even-cycle) % 2 * 2)
 
     print(f'#{tc} {answer}')
+
+# 교수님 코드드
+# C = int(input())
+# for tc in range(1, TC):
+#     N = int(input())
+#     Tree = list(map(int, input().split()))
+#     maxV = max(Tree)
+#     cnt1 = 0
+#     cnt2 = 0
+#     for i in range(N):
+#         cnt1 += (maxV-Tree[i])//2
+#         cnt2 += (maxV-Tree[i])%2
+#
+#     result = max(cnt1*2, cnt2*2-1)
+#     while result >= max(cnt1*2, cnt2*2-1):
+#         result = max(cnt1*2, cnt2*2-1)
+#         cnt1 -= 1
+#         cnt2 += 2
+#
+#         print(f'#{tc} {result}')
