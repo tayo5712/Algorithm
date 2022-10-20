@@ -1,6 +1,3 @@
-import sys
-
-sys.stdin = open("input_2806.txt", "r")
 
 def n_queens(i, col):
     global cnt
