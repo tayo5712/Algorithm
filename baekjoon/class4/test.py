@@ -1,15 +1,36 @@
-'''- 먼저 중위 순회와 후위 순회의 결과를 입력받는다.
-- 중위 순회했을 때 특정 노드를 몇 번째로 방문했는지에 대한 정보를 position에 저장한다.
-- position을 활용하여 루트 노드를 기준으로 왼쪽 서브트리와 오른쪽 서브트리를 나누는데 사용된다.
-- 이제 find_tree함수에 중위 순회와 후위 순회의 처음 위치와 마지막 위치를 전달한다.
-- find_tree를 통해 전위 순회의 결과를 출력한다.
-- 먼저 r_post는 후위 순회의 결과 중 가장 마지막으로 방문한 노드를 가리키고 있기 때문에 이를 활용하여 루트 노드를 구한다.
-- 그리고 전위순회이기 때문에 구한 루트 노드를 바로 출력한다.
-- 이제 루트 노드를 통해 중위 순회에서 왼쪽과 오른쪽 서브트리를 구해야한다.
-- 루트 노드가 중위 순회에서 몇 번째로 방문했는지를 찾아 idx에 저장하고
-- idx를 기준으로 왼쪽 서브트리에는 몇 개의 노드가 있는지 count에 저장한다.
-- 이제 idx와 count를 활용하여 왼쪽 서브트리와 오른쪽 서브트리를 구한다.
-- 첫 번째 재귀 호출은 왼쪽 서브트리의 루트 노드를 구하기 위한 것이다.
-- 항상 중위 순회와 후위 순회의 범위를 맞춰주어야 한다.
-- 이렇게 재귀호출을 통해 반복을 하여 전위 순회의 결과를 구할 수 있다.
-'''
+n, m = map(int, input().split())
+who = list(map(int, input().split()))
+truth_list = [0] * (n+1)
+if who[0]:
+    truth = who[1:]
+    for p in truth:
+        truth_list[p] = 1
+
+    cnt = 0
+    all_parties = []
+    for _ in range(m):
+        participants = list(map(int, input().split()))[1:]
+        all_parties.append(participants)
+
+    for _ in range(m):
+        for party in all_parties:
+            for people in party:
+                if truth_list[people] == 1:
+                    for people in party:
+                        truth_list[people] = 1
+                    break
+
+    for party in all_parties:
+        for people in party:
+            if truth_list[people] == 1:
+                break
+        else:
+            cnt += 1
+    print(cnt)
+
+else:
+    print(m)
+
+
+
+
