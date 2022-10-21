@@ -4,7 +4,7 @@ def solve(a, b):
         return a % c
     else:
         temp = solve(a, b//2)
-        if b % 2:
+        if b % 2 == 1:
             return temp * temp * a % c
         else:
             return temp * temp % c
