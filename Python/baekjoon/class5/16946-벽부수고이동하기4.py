@@ -27,7 +27,7 @@ def check_group(ci, cj):
     answer = 1  # 벽 자기 자신 포함
     for mg in my_group:     # 자기칸과 인접한 그룹의 칸의 개수를 더해준다.
         answer += group_dict[mg]
-        result[ci][cj] = answer % 10    # 문제에서 10으로 나눈 나머지를 출력
+    result[ci][cj] = answer % 10    # 문제에서 10으로 나눈 나머지를 출력
 
 
 n, m = map(int, input().split())
