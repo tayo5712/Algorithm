@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92c369a9-845b-4471-af0a-acaebee49517" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="92c369a9-845b-4471-af0a-acaebee49517" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +47,7 @@
       <recent name="D:\알고리즘 공부\Algorithm\Java\boj\src\자료구조" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._14729_칠무해">
+  <component name="RunManager" selected="Application._1940_주몽">
     <configuration name="_10986_나머지합" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="자료구조._10986_나머지합" />
       <module name="boj" />
@@ -76,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_11720_숫자의합구하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="자료구조._11720_숫자의합구하기" />
+    <configuration name="_14729_칠무해" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="자료구조._14729_칠무해" />
       <module name="boj" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_14729_칠무해" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="자료구조._14729_칠무해" />
+    <configuration name="_1940_주몽" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="자료구조._1940_주몽" />
       <module name="boj" />
       <extension name="coverage">
         <pattern>
@@ -117,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._1940_주몽" />
         <item itemvalue="Application._14729_칠무해" />
         <item itemvalue="Application._2018_수들의합5" />
         <item itemvalue="Application._10986_나머지합" />
         <item itemvalue="Application._11659_구간합구하기4" />
-        <item itemvalue="Application._11720_숫자의합구하기" />
       </list>
     </recent_temporary>
   </component>
