@@ -47,7 +47,7 @@
       <recent name="D:\알고리즘 공부\Algorithm\Java\boj\src\자료구조" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._1940_주몽">
+  <component name="RunManager" selected="Application._12891_DNA비밀번호">
     <configuration name="_10986_나머지합" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="자료구조._10986_나머지합" />
       <module name="boj" />
@@ -61,8 +61,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_11659_구간합구하기4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="자료구조._11659_구간합구하기4" />
+    <configuration name="_12891_DNA비밀번호" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="자료구조._12891_DNA비밀번호" />
       <module name="boj" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._12891_DNA비밀번호" />
         <item itemvalue="Application._1940_주몽" />
         <item itemvalue="Application._14729_칠무해" />
         <item itemvalue="Application._2018_수들의합5" />
         <item itemvalue="Application._10986_나머지합" />
-        <item itemvalue="Application._11659_구간합구하기4" />
       </list>
     </recent_temporary>
   </component>
