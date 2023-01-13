@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92c369a9-845b-4471-af0a-acaebee49517" name="Changes" comment="" />
+    <list default="true" id="92c369a9-845b-4471-af0a-acaebee49517" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,9 +50,9 @@
       <recent name="D:\알고리즘 공부\Algorithm\Java\boj\src\자료구조" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._12891_DNA비밀번호">
-    <configuration name="_10986_나머지합" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="자료구조._10986_나머지합" />
+  <component name="RunManager" selected="Application._1253_좋다">
+    <configuration name="_1253_좋다" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="자료구조._1253_좋다" />
       <module name="boj" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._1253_좋다" />
         <item itemvalue="Application._12891_DNA비밀번호" />
         <item itemvalue="Application._1940_주몽" />
         <item itemvalue="Application._14729_칠무해" />
         <item itemvalue="Application._2018_수들의합5" />
-        <item itemvalue="Application._10986_나머지합" />
       </list>
     </recent_temporary>
   </component>
