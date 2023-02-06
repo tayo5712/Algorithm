@@ -44,7 +44,7 @@
       <recent name="D:\알고리즘 공부\Algorithm\Java\boj\src\자료구조" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._11286_절대값힙">
+  <component name="RunManager" selected="Application._11724_연결요소의개수">
     <configuration name="_11003_최솟값찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="자료구조._11003_최솟값찾기" />
       <module name="boj" />
@@ -71,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1253_좋다" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="자료구조._1253_좋다" />
+    <configuration name="_11724_연결요소의개수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="탐색._11724_연결요소의개수" />
       <module name="boj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="자료구조.*" />
+          <option name="PATTERN" value="탐색.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._11724_연결요소의개수" />
         <item itemvalue="Application._11286_절대값힙" />
         <item itemvalue="Application._17298_오큰수" />
         <item itemvalue="Application._11003_최솟값찾기" />
         <item itemvalue="Application._1874_스택수열" />
-        <item itemvalue="Application._1253_좋다" />
       </list>
     </recent_temporary>
   </component>
