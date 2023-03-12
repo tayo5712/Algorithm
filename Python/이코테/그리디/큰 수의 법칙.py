@@ -1,22 +1,15 @@
-N, M, K = map(int, input().split())
-arr = list(map(int, input().split()))
+n, m, k = map(int, input().split())
+lst = list(map(int, input().split()))
+lst.sort()
+max1 = lst[-1] # 가장 큰 수
+max2 = lst[-2] # 두 번째로 큰 수
 
-arr.sort()
-sum = 0
-first = arr[-1]
-second = arr[-2]
+result = 0
 
-# for _ in range(M):
-#     sum += first
-#
-# for _ in range(K, M, K):
-#     sum -= first
-#     sum += second
-#
-# print(sum)
+cycle = m // (k+1)  # 한 사이클 횟수
+cycle_remain = m % (k+1)    # 사이클을 돌리고 남은 개수
+cycle_sum = (max1 * k) + max2   # 한 사이클의 합
 
-count = int(M / (K + 1)) * K + M % (K + 1)
+result += (cycle * cycle_sum) + (max1 * cycle_remain)   # (사이클 횟수 * 한 사이클의 합) + (사이클을 돌리고 남은 개수 * 배열 최대값)
+print(result)
 
-sum += (count) * first
-sum += (M - count) * second
-print(sum)
