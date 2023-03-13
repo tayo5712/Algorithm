@@ -1,7 +1,6 @@
-N, M = map(int, input().split())
+n, m = map(int, input().split())
 result = 0
-for _ in range(N):
-    arr = list(map(int, input().split()))
-    result = max(result, min(arr))
-
+for _ in range(n):
+    a = list(map(int, input().split()))
+    result = max(result, min(a))
 print(result)
