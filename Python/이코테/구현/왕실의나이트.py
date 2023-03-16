@@ -1,16 +1,10 @@
-T = input()
+input_data = input()
+column = ord(input_data[0]) - ord('a') + 1
+row = int(input_data[1])
 
-row = int(T[1])
-col = int(ord(T[0])-ord('a')+1)
-
-step = [(-2, -1), (-2, 1), (-1, 2), (1, 2), (2, 1), (2, -1), (1, -2), (-1, -2)]
 cnt = 0
-
-for i, j in step:
-    nr = row + i
-    nc = col + j
-    if nr < 1 or nr > 8 or nc < 1 or nc > 8:
-        continue
-    cnt += 1
-
+for dr, dc in ((1, 2), (-1, 2), (2, -1), (2, 1), (-2, -1), (-2, 1), (1, -2), (-1, -2)):
+    nr, nc = row + dr, column + dc
+    if 1 <= nr <= 8 and 1 <= nc <= 8:
+        cnt += 1
 print(cnt)
