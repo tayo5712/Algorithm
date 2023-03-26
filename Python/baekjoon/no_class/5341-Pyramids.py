@@ -3,4 +3,4 @@ while True:
     if n == 0:
         exit()
     else:
-        print((n*(n+1))//2)
+        print(n*(n+1)//2)
