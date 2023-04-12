@@ -4,7 +4,7 @@ for _ in range(n):
     ax, ay, bx, by = map(int, input().split())
     for i in range(ax, bx+1):
         for j in range(ay, by+1):
-            mapp[i][j] += 1
+            mapp[i-1][j-1] += 1
 
 cnt = 0
 for i in range(100):
