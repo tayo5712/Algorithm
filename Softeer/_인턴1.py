@@ -61,3 +61,9 @@ for s in system:
         result += len(s)
 
 print(result)
+
+# input
+# 8
+# 8 6 7 4 1 3 2 5
+# output
+# 9
