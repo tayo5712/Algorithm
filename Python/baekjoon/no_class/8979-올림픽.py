@@ -11,4 +11,3 @@ for i in range(n):
     if s[idx][1:] == s[i][1:]:
         print(i+1)
         break
-
