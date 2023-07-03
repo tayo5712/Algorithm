@@ -1,6 +1,8 @@
+package String;
+
 import java.util.Scanner;
 
-public class _10_문자거리 {
+public class _01_10_문자거리 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // 1

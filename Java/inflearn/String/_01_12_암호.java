@@ -1,6 +1,8 @@
+package String;
+
 import java.util.Scanner;
 
-public class _12_암호 {
+public class _01_12_암호 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

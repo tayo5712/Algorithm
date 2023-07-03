@@ -1,6 +1,8 @@
+package String;
+
 import java.util.Scanner;
 
-public class _01_문자찾기 {
+public class _01_01_문자찾기 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str = sc.next();

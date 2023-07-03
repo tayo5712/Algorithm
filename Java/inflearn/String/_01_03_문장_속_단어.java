@@ -1,8 +1,8 @@
-import java.util.ArrayList;
-import java.util.Arrays;
+package String;
+
 import java.util.Scanner;
 
-public class _03_문장_속_단어 {
+public class _01_03_문장_속_단어 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String sentence = sc.nextLine();

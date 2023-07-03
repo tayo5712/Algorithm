@@ -1,6 +1,8 @@
+package String;
+
 import java.util.Scanner;
 
-public class _05_특정_문자_뒤집기 {
+public class _01_05_특정_문자_뒤집기 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String words = sc.next();

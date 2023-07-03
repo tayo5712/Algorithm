@@ -1,6 +1,8 @@
+package String;
+
 import java.util.Scanner;
 
-public class _02_대소문자_변환 {
+public class _01_02_대소문자_변환 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String word = sc.next();

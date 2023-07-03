@@ -1,6 +1,8 @@
+package String;
+
 import java.util.Scanner;
 
-public class _08_유효한_팰린드롬 {
+public class _01_08_유효한_팰린드롬 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();

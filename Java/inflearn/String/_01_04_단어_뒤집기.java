@@ -1,6 +1,8 @@
+package String;
+
 import java.util.Scanner;
 
-public class _04_단어_뒤집기 {
+public class _01_04_단어_뒤집기 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

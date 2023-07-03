@@ -1,7 +1,8 @@
-import java.util.LinkedHashSet;
+package String;
+
 import java.util.Scanner;
 
-public class _06_중복문자제거 {
+public class _01_06_중복문자제거 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String words = sc.next();
