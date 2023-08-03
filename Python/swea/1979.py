@@ -42,4 +42,4 @@ for tc in range(1, T + 1):
                 if track_c_cnt == K:
                     cnt += 1
                 track_r_cnt = 0
-    print(f'#{tc} {cnt)
+    print(f'#{tc} {cnt}')
