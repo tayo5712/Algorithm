@@ -8,94 +8,8 @@
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boj.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/boj/자료구조/_11659_구간합구하기4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/boj/자료구조/_11720_숫자의합구하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/boj/자료구조/_1546_평균.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/boj.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/out/production/boj/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/out/production/boj/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/out/production/boj/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/out/production/boj/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/out/production/boj/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/out/production/boj/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/out/production/boj/boj.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/자료구조/_1026_보물.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/자료구조/_10986_나머지합.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/자료구조/_11003_최솟값찾기$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/자료구조/_11003_최솟값찾기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/자료구조/_11286_절대값힙.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/자료구조/_11659_구간합구하기4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/자료구조/_11660_구간합구하기5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/자료구조/_11720_숫자의합구하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/자료구조/_1253_좋다.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/자료구조/_12847_꿀아르바이트.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/자료구조/_12891_DNA비밀번호.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/자료구조/_14729_칠무해.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/자료구조/_1546_평균.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/자료구조/_17298_오큰수.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/자료구조/_1874_스택수열.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/자료구조/_1940_주몽.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/자료구조/_2018_수들의합5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/자료구조/_2163_카드게임.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/정렬/_2750_수정렬하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/boj/탐색/_11724_연결요소의개수.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boj.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/boj.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/자료구조/_1026_보물.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/자료구조/_10986_나머지합.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/자료구조/_11003_최솟값찾기$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/자료구조/_11003_최솟값찾기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/자료구조/_11286_절대값힙.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/자료구조/_11659_구간합구하기4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/자료구조/_11660_구간합구하기5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/자료구조/_11720_숫자의합구하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/자료구조/_1253_좋다.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/자료구조/_12847_꿀아르바이트.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/자료구조/_12891_DNA비밀번호.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/자료구조/_14729_칠무해.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/자료구조/_1546_평균.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/자료구조/_17298_오큰수.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/자료구조/_1874_스택수열.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/자료구조/_1940_주몽.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/자료구조/_2018_수들의합5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/자료구조/_2163_카드게임.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/boj/정렬/_2750_수정렬하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/자료구조/_1026_보물.java" beforeDir="false" afterPath="$PROJECT_DIR$/자료구조/_1026_보물.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/자료구조/_10986_나머지합.java" beforeDir="false" afterPath="$PROJECT_DIR$/자료구조/_10986_나머지합.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/자료구조/_11003_최솟값찾기.java" beforeDir="false" afterPath="$PROJECT_DIR$/자료구조/_11003_최솟값찾기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/자료구조/_11286_절대값힙.java" beforeDir="false" afterPath="$PROJECT_DIR$/자료구조/_11286_절대값힙.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/자료구조/_11659_구간합구하기4.java" beforeDir="false" afterPath="$PROJECT_DIR$/자료구조/_11659_구간합구하기4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/자료구조/_11660_구간합구하기5.java" beforeDir="false" afterPath="$PROJECT_DIR$/자료구조/_11660_구간합구하기5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/자료구조/_11720_숫자의합구하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/자료구조/_11720_숫자의합구하기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/자료구조/_1253_좋다.java" beforeDir="false" afterPath="$PROJECT_DIR$/자료구조/_1253_좋다.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/자료구조/_12847_꿀아르바이트.java" beforeDir="false" afterPath="$PROJECT_DIR$/자료구조/_12847_꿀아르바이트.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/자료구조/_12891_DNA비밀번호.java" beforeDir="false" afterPath="$PROJECT_DIR$/자료구조/_12891_DNA비밀번호.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/자료구조/_14729_칠무해.java" beforeDir="false" afterPath="$PROJECT_DIR$/자료구조/_14729_칠무해.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/자료구조/_1546_평균.java" beforeDir="false" afterPath="$PROJECT_DIR$/자료구조/_1546_평균.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/자료구조/_17298_오큰수.java" beforeDir="false" afterPath="$PROJECT_DIR$/자료구조/_17298_오큰수.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/자료구조/_1874_스택수열.java" beforeDir="false" afterPath="$PROJECT_DIR$/자료구조/_1874_스택수열.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/자료구조/_1940_주몽.java" beforeDir="false" afterPath="$PROJECT_DIR$/자료구조/_1940_주몽.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/자료구조/_2018_수들의합5.java" beforeDir="false" afterPath="$PROJECT_DIR$/자료구조/_2018_수들의합5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/자료구조/_2163_카드게임.java" beforeDir="false" afterPath="$PROJECT_DIR$/자료구조/_2163_카드게임.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/정렬/_2750_수정렬하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/정렬/_2750_수정렬하기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/탐색/_11724_연결요소의개수.java" beforeDir="false" afterPath="$PROJECT_DIR$/탐색/_11724_연결요소의개수.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/production/boj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/production/production/boj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/production/boj/_2002_추월.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,20 +52,7 @@
       <recent name="D:\알고리즘 공부\Algorithm\Java\boj\src\자료구조" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._2002_추월">
-    <configuration name="_11286_절대값힙" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="자료구조._11286_절대값힙" />
-      <module name="boj" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="자료구조.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.etc._2002_추월">
     <configuration name="_11724_연결요소의개수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="탐색._11724_연결요소의개수" />
       <module name="boj" />
@@ -198,8 +99,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="etc._2002_추월" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="etc._2002_추월" />
+      <module name="boj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="etc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.etc._2002_추월" />
         <item itemvalue="Application._2002_추월" />
         <item itemvalue="Application._1874_스택수열" />
       </list>
