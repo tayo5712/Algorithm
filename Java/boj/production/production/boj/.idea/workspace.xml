@@ -35,28 +35,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/알고리즘 공부/Algorithm/Java/boj",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/알고리즘 공부/Algorithm/Java/boj&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\알고리즘 공부\Algorithm\Java\boj\src\자료구조" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.etc._2002_추월">
-    <configuration name="_11724_연결요소의개수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="탐색._11724_연결요소의개수" />
+  <component name="RunManager" selected="Application._14889_스타트와링크">
+    <configuration name="_14889_스타트와링크" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="etc._14889_스타트와링크" />
       <module name="boj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="탐색.*" />
+          <option name="PATTERN" value="etc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,6 +112,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._14889_스타트와링크" />
         <item itemvalue="Application.etc._2002_추월" />
         <item itemvalue="Application._2002_추월" />
         <item itemvalue="Application._1874_스택수열" />
