@@ -7,7 +7,8 @@
     <list default="true" id="92c369a9-845b-4471-af0a-acaebee49517" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python/swea/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/swea/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python/swea/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/swea/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
       <recent name="D:\알고리즘 공부\Algorithm\Java\boj\src\자료구조" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._14889_스타트와링크">
+  <component name="RunManager" selected="Application._1816_암호키">
     <configuration name="_14889_스타트와링크" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="etc._14889_스타트와링크" />
       <module name="boj" />
@@ -64,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_17298_오큰수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="자료구조._17298_오큰수" />
+    <configuration name="_1816_암호키" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="etc._1816_암호키" />
       <module name="boj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="자료구조.*" />
+          <option name="PATTERN" value="etc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,6 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._1816_암호키" />
         <item itemvalue="Application._14889_스타트와링크" />
         <item itemvalue="Application.etc._2002_추월" />
         <item itemvalue="Application._2002_추월" />
