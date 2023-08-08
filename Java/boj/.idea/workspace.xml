@@ -50,9 +50,9 @@
       <recent name="D:\알고리즘 공부\Algorithm\Java\boj\src\자료구조" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._2503_숫자야구">
-    <configuration name="_14568_2017_연세대학교_프로그래밍_경시대회" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="etc._14568_2017_연세대학교_프로그래밍_경시대회" />
+  <component name="RunManager" selected="Application._1090_체커">
+    <configuration name="_1090_체커" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="etc._1090_체커" />
       <module name="boj" />
       <extension name="coverage">
         <pattern>
@@ -64,8 +64,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_14889_스타트와링크" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="etc._14889_스타트와링크" />
+    <configuration name="_14568_2017_연세대학교_프로그래밍_경시대회" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="etc._14568_2017_연세대학교_프로그래밍_경시대회" />
       <module name="boj" />
       <extension name="coverage">
         <pattern>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._1090_체커" />
         <item itemvalue="Application._2503_숫자야구" />
         <item itemvalue="Application._19532_수학은비대면강의입니다" />
         <item itemvalue="Application._14568_2017_연세대학교_프로그래밍_경시대회" />
         <item itemvalue="Application._1816_암호키" />
-        <item itemvalue="Application._14889_스타트와링크" />
       </list>
     </recent_temporary>
   </component>
