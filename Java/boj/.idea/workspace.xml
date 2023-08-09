@@ -50,7 +50,7 @@
       <recent name="D:\알고리즘 공부\Algorithm\Java\boj\src\자료구조" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._1090_체커">
+  <component name="RunManager" selected="Application._2961_도영이가만든맛있는음식">
     <configuration name="_1090_체커" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="etc._1090_체커" />
       <module name="boj" />
@@ -66,19 +66,6 @@
     </configuration>
     <configuration name="_14568_2017_연세대학교_프로그래밍_경시대회" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="etc._14568_2017_연세대학교_프로그래밍_경시대회" />
-      <module name="boj" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="etc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_1816_암호키" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="etc._1816_암호키" />
       <module name="boj" />
       <extension name="coverage">
         <pattern>
@@ -116,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_2961_도영이가만든맛있는음식" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="etc._2961_도영이가만든맛있는음식" />
+      <module name="boj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="etc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._2961_도영이가만든맛있는음식" />
         <item itemvalue="Application._1090_체커" />
         <item itemvalue="Application._2503_숫자야구" />
         <item itemvalue="Application._19532_수학은비대면강의입니다" />
         <item itemvalue="Application._14568_2017_연세대학교_프로그래밍_경시대회" />
-        <item itemvalue="Application._1816_암호키" />
       </list>
     </recent_temporary>
   </component>
