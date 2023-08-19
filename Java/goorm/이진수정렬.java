@@ -16,7 +16,7 @@ public class 이진수정렬 {
         @Override
         public int compareTo(Pair o) {
             if (this.bit == o.bit) return o.num - this.num;
-            return o.bit - this.bitㅎ;
+            return o.bit - this.bit;
         }
     }
 
