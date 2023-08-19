@@ -50,7 +50,7 @@
       <recent name="D:\알고리즘 공부\Algorithm\Java\boj\src\자료구조" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._2169_로봇조종하기">
+  <component name="RunManager" selected="Application._17266_어두운굴다리">
     <configuration name="_1090_체커" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="etc._1090_체커" />
       <module name="boj" />
@@ -64,8 +64,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_19532_수학은비대면강의입니다" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="etc._19532_수학은비대면강의입니다" />
+    <configuration name="_17266_어두운굴다리" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="etc._17266_어두운굴다리" />
       <module name="boj" />
       <extension name="coverage">
         <pattern>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._17266_어두운굴다리" />
         <item itemvalue="Application._2169_로봇조종하기" />
         <item itemvalue="Application._2961_도영이가만든맛있는음식" />
         <item itemvalue="Application._1090_체커" />
         <item itemvalue="Application._2503_숫자야구" />
-        <item itemvalue="Application._19532_수학은비대면강의입니다" />
       </list>
     </recent_temporary>
   </component>
