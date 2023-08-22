@@ -50,20 +50,7 @@
       <recent name="D:\알고리즘 공부\Algorithm\Java\boj\src\자료구조" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._17266_어두운굴다리">
-    <configuration name="_1090_체커" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="etc._1090_체커" />
-      <module name="boj" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="etc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application._3108_빵집">
     <configuration name="_17266_어두운굴다리" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="etc._17266_어두운굴다리" />
       <module name="boj" />
@@ -90,19 +77,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2503_숫자야구" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="etc._2503_숫자야구" />
-      <module name="boj" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="etc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="_2961_도영이가만든맛있는음식" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="etc._2961_도영이가만든맛있는음식" />
       <module name="boj" />
@@ -116,13 +90,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_3108_빵집" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="etc._3108_빵집" />
+      <module name="boj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="etc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="etc.test" />
+      <module name="boj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="etc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._3108_빵집" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application._17266_어두운굴다리" />
         <item itemvalue="Application._2169_로봇조종하기" />
         <item itemvalue="Application._2961_도영이가만든맛있는음식" />
-        <item itemvalue="Application._1090_체커" />
-        <item itemvalue="Application._2503_숫자야구" />
       </list>
     </recent_temporary>
   </component>
