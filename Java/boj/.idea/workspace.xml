@@ -50,7 +50,7 @@
       <recent name="D:\알고리즘 공부\Algorithm\Java\boj\src\자료구조" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._3108_빵집">
+  <component name="RunManager" selected="Application._2212_센서">
     <configuration name="_17266_어두운굴다리" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="etc._17266_어두운굴다리" />
       <module name="boj" />
@@ -77,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2961_도영이가만든맛있는음식" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="etc._2961_도영이가만든맛있는음식" />
+    <configuration name="_2212_센서" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="etc._2212_센서" />
       <module name="boj" />
       <extension name="coverage">
         <pattern>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._2212_센서" />
         <item itemvalue="Application._3108_빵집" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application._17266_어두운굴다리" />
         <item itemvalue="Application._2169_로봇조종하기" />
-        <item itemvalue="Application._2961_도영이가만든맛있는음식" />
       </list>
     </recent_temporary>
   </component>
