@@ -1,4 +1,4 @@
-class Solution {
+class _큰수만들기 {
     public String solution(String number, int k) {
         char[] arr = number.toCharArray();
         int n = arr.length;

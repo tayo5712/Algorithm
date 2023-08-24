@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class _모의고사 {
     public ArrayList<Integer> solution(int[] answers) {
         ArrayList<Integer> answer = new ArrayList<>();
         int[] collect = new int[4];
