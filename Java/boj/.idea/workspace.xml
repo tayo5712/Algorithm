@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92c369a9-845b-4471-af0a-acaebee49517" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +48,9 @@
       <recent name="D:\알고리즘 공부\Algorithm\Java\boj\src\자료구조" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._2212_센서">
-    <configuration name="_17266_어두운굴다리" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="etc._17266_어두운굴다리" />
+  <component name="RunManager" selected="Application._14891_톱니바퀴">
+    <configuration name="_14891_톱니바퀴" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="etc._14891_톱니바퀴" />
       <module name="boj" />
       <extension name="coverage">
         <pattern>
@@ -63,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2169_로봇조종하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="etc._2169_로봇조종하기" />
+    <configuration name="_17266_어두운굴다리" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="etc._17266_어두운굴다리" />
       <module name="boj" />
       <extension name="coverage">
         <pattern>
@@ -117,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._14891_톱니바퀴" />
         <item itemvalue="Application._2212_센서" />
         <item itemvalue="Application._3108_빵집" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application._17266_어두운굴다리" />
-        <item itemvalue="Application._2169_로봇조종하기" />
       </list>
     </recent_temporary>
   </component>
