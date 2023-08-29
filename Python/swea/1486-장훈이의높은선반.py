@@ -1,6 +1,3 @@
-import sys
-
-sys.stdin = open("input_1486.txt", "r")
 
 def powerset(i, sumV):
     global minV
@@ -13,9 +10,7 @@ def powerset(i, sumV):
         return
 
     else:
-        visited[i] = 1
         powerset(i + 1, sumV + people[i])
-        visited[i] = 0
         powerset(i + 1, sumV)
 
 T = int(input())
