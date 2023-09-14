@@ -3,7 +3,7 @@ board = [list(input().strip()) for i in range(r)]
 
 if n <= 1:
     for li in board: 
-        print(''.join(li))
+        print(''.join(li))it
 elif n % 2 == 0:
     for i in range(r): 
         print('O' * c)
