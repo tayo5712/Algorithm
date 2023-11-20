@@ -1,0 +1,15 @@
+def avg(n):
+  if n - int(n) >= 0.5:
+    return int(n + 0.5)
+  else:
+    return int(n)
+
+n = int(input())
+if n == 0:
+  print(0)
+else:  
+  arr = list(int(input()) for _ in range(n))
+  arr.sort()
+  nn = avg(0.15*n)
+  print(avg(sum(arr[nn:n-nn])/len(arr[nn:n-nn])))
+
