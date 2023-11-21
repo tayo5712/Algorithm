@@ -1,0 +1,29 @@
+from itertools import combinations
+
+def match(a, b):
+  score = 0
+  for i in range(4):
+    if a[i] != b[i]:
+      score += 1
+  return score
+  
+def connect(friends):
+  a = match(friends[0], friends[1])
+  b = match(friends[0], friends[2])
+  c = match(friends[1], friends[2])
+  return a + b + c
+
+n = int(input())
+for _ in range(n):
+  result = 12
+  m = int(input())
+  people = list(input().split())
+  if m >= 48:
+    result = 0
+  else:    
+    for group in combinations(people, 3):
+      value = connect(group)
+      if value < result:
+        result = value
+
+  print(result)
