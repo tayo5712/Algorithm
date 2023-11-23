@@ -1,0 +1,51 @@
+# 빌딩의 문은 잠겨있기 때문에 문을 열려면 열쇠 필요
+# 일부 열쇠는 보유, 일부 열쇠는 빌딩의 바닥
+# 상근이는 상하좌우
+# 상근이가 훔칠 수 있는 문서의 최대 개수를 구하기
+
+# '.' 빈 공간
+# '*' 벽, 벽 통과 불가
+# '$' 문서
+# 알파벳 대문자 = 문
+# 알파벡 소문자 = 열쇠
+
+# 열쇠를 찾을 때 마다 방문 초기화
+# 문서 찾으면 개수 더하고 빈 방으로 바꿔주기
+
+from collections import deque
+
+def bfs(sti, stj):
+  global result
+  global visited
+  q = deque()
+  q.append((sti, stj))
+  visited[sti][stj] = 1
+  while q:
+    ti, tj = q.popleft()
+    for di, dj in ((0, 1), (1, 0), (-1, 0), (0, -1)):
+      ni, nj = ti + di, tj + dj
+      if 0 <= ni < n + 2 and 0 <= nj < m + 2 and not visited[ni][nj] and mapp[ni][nj] != '*':
+        visited[ni][nj] = 1
+        if mapp[ni][nj] == '$':
+          result += 1
+        elif mapp[ni][nj].islower(): # 새로운 키 발견 시 방문처리 초기화 
+          visited = [[0 for _ in range(m+2)] for _ in range(n+2)]
+          key.add(mapp[ni][nj])
+        elif mapp[ni][nj].isupper() and mapp[ni][nj].lower() not in key: # 대문자
+            continue
+        mapp[ni][nj] = '.'
+        q.append((ni, nj))
+    
+tc = int(input())
+for _ in range(tc):
+  n, m = map(int, input().split())
+  mapp = [['.' for _ in range(m+2)]] + list(['.'] + list(input()) + ['.'] for _ in range(n)) + [['.' for _ in range(m + 2)]]
+  key = set(input())
+  result = 0
+  if '0' in key:
+    key = set()
+
+  visited = [[0 for _ in range(m+2)] for _ in range(n+2)]
+  bfs(0, 0)
+  
+  print(result)         
