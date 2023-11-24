@@ -1,0 +1,25 @@
+n = int(input())
+mapp = list(list(input()) for _ in range(n))
+
+result = [[0 for _ in range(n)] for _ in range(n)]
+
+for i in range(n):
+  for j in range(n):
+    if mapp[i][j].isdigit():
+      result[i][j] = -1
+      for di, dj in ((0, 1), (1, 0), (-1, 0), (0, -1), (1, 1), (-1, 1), (1, -1), (-1, -1)):
+        ni, nj = i + di, j + dj
+        if 0 <= ni < n and 0 <= nj < n and mapp[ni][nj] == '.':
+          result[ni][nj] += int(mapp[i][j])
+
+
+for i in range(n):
+  for j in range(n):
+    if result[i][j] == -1:
+      print("*", end = '')
+    elif result[i][j] >= 10:
+      print("M", end = '')
+    else:
+      print(result[i][j], end = '')
+
+  print()
