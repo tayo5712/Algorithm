@@ -1,0 +1,69 @@
+# N(오른쪽), W(위), E(아래), S(왼쪽)  판 돌려서 방향 다름
+# A(가로), B(세로)
+# N(로봇개수), M(명령개수)
+
+A, B = map(int, input().split())
+N, M = map(int, input().split())
+
+# 판 돌리기
+land = [[0 for _ in range(B)] for _ in range(A)]
+
+oper = ["W", "N", "E", "S"]
+di = [-1, 0, 1, 0]
+dj = [0, 1, 0, -1]
+
+# 로봇 초기 위치 세팅
+robot_pos = []
+for i in range(N):
+    a, b, c = input().split()
+    a = int(a)
+    b = int(b)
+    pos = 0
+    if c == "W":
+        pos = 0
+    elif c == "N":
+        pos = 1
+    elif c == "E":
+        pos = 2
+    else:
+        pos = 3
+    robot_pos.append([a, b, pos])
+    land[a - 1][b - 1] = i + 1
+
+
+# 명령 실행
+for i in range(M):
+    flag = True
+    num, order, repeat = input().split()
+    num = int(num) - 1
+    repeat = int(repeat)
+    rp, cp = robot_pos[num][0] - 1, robot_pos[num][1] - 1
+    for _ in range(repeat):    
+        if order == "F":
+            pos = robot_pos[num][2]       
+            ni, nj = rp + di[pos], cp + dj[pos]
+            if 0 > ni or A <= ni or 0 > nj or B <= nj:
+                # 벽 충돌
+                print(f"Robot {num+1} crashes into the wall")
+                flag = False
+                break
+            elif land[ni][nj] != 0:
+                print(f"Robot {num+1} crashes into robot {land[ni][nj]}")
+                flag = False
+                break
+            else: # 이동
+                land[ni][nj] = land[rp][cp]
+                land[rp][cp] = 0
+                robot_pos[num][0] = ni + 1
+                robot_pos[num][1] = nj + 1
+                rp = ni
+                cp = nj
+        elif order == "L":
+            robot_pos[num][2] = (robot_pos[num][2] + 3) % 4 
+        else: # R
+            robot_pos[num][2] = (robot_pos[num][2] + 1) % 4
+    if flag == False:
+        break
+
+else:
+    print("OK")
