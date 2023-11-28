@@ -1,0 +1,44 @@
+def par(k, l, sumV, arr, sumList):
+    if k == l:
+        sumList.append(sumV)
+    
+    else:
+        par(k+1, l, sumV, arr, sumList)
+        par(k+1, l, sumV + arr[k], arr, sumList)
+
+
+N, S = map(int, input().split())
+lst = list(map(int, input().split()))
+
+leftSumList = []
+rightSumList = []
+
+par(0, N//2, 0, lst[:N//2], leftSumList)
+par(0, N-N//2, 0, lst[N//2:], rightSumList)
+
+leftSumList.sort()
+rightSumList.sort(reverse=True)
+
+result = 0
+lt = 0
+rt = 0
+
+while lt < len(leftSumList) and rt < len(rightSumList):
+    tmp = leftSumList[lt] + rightSumList[rt]
+    if tmp == S:
+        llt, rrt = lt, rt
+        while llt < len(leftSumList) and leftSumList[llt] == leftSumList[lt]:
+            llt += 1
+        while rrt < len(rightSumList) and rightSumList[rrt] == rightSumList[rt]:
+            rrt += 1
+        result += (llt-lt) * (rrt-rt)
+        lt, rt = llt, rrt
+    elif tmp < S:
+        lt += 1
+    else:
+        rt += 1
+if S == 0:
+    print(result - 1)
+else:
+    print(result)
+        
