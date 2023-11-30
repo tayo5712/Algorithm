@@ -1,0 +1,73 @@
+from collections import deque
+
+n, m = map(int, input().split())
+board = list(list(input()) for _ in range(n))
+
+rr, rc, br, bc = 0, 0, 0, 0
+
+dr = [0, 0, -1, 1]
+dc = [-1, 1, 0, 0]
+
+for i in range(n):
+    for j in range(m):
+        if board[i][j] == 'R':
+            rr, rc = i, j
+            board[i][j] = '.'
+        elif board[i][j] == 'B':
+            br, bc = i, j
+            board[i][j] = '.'
+
+def move(mrr, mrc, mbr, mbc, d, myQueue, cnt):
+    hole_r = False
+    hole_b = False
+    nmrr, nmrc, nmbr, nmbc = mrr, mrc, mbr, mbc
+
+    while board[nmrr + dr[d]][nmrc + dc[d]] != '#':
+         nmrr += dr[d]
+         nmrc += dc[d]
+         if board[nmrr][nmrc] == 'O':
+            hole_r = True
+            break
+    while board[nmbr + dr[d]][nmbc + dc[d]] != '#':
+         nmbr += dr[d]
+         nmbc += dc[d]
+         if board[nmbr][nmbc] == 'O':
+            hole_b = True
+            break
+    # 둘다 들어간 경우
+    if hole_r and hole_b:
+        return False
+    # 빨간공만 들어간 경우
+    elif hole_r:
+        return True
+    # 파란공만 들어간 경우
+    elif hole_b:
+        return False
+    # 아직 안들어간 경우 and 이전 위치랑 다를 때 큐 삽입 + 공위치 겹칠경우 멀리서 온 공을 뒤로 빼주기
+    else:
+        if nmrr == nmbr and nmrc == nmbc:
+            if abs((mrr - nmrr) + (mrc - nmrc)) < abs((mbr - nmbr) + (mbc - nmbc)):
+                nmbr -= dr[d]
+                nmbc -= dc[d]
+            else:
+                nmrr -= dr[d]
+                nmrc -= dc[d]
+        if mrr != nmrr or mrc != nmrc or mbr != nmbr or mbc != nmbc: #check 
+            myQueue.append((nmrr, nmrc, nmbr, nmbc, cnt+1))
+        return False
+
+def bfs():
+    q = deque()
+    q.append((rr, rc, br, bc, 1))
+    while q:
+        red_r, red_c, blue_r, blue_c, count = q.popleft()
+        if count > 10:
+            continue
+        for d in range(4):
+            a = move(red_r, red_c, blue_r, blue_c, d, q, count)
+            if a:
+                return 1
+    return 0
+
+result = bfs()
+print(result)
