@@ -1,0 +1,21 @@
+n = int(input())
+arr = list(map(int, input().split()))
+memo = [0]
+
+for num in arr:
+    if memo[-1] < num:
+        memo.append(num)
+    else: # 중간에 값 넣기
+        st = 0
+        ed = len(memo)
+        while st < ed:
+            mid = (st+ed) // 2
+
+            if memo[mid] < num:
+                st = mid + 1
+            else:
+                ed = mid
+
+        memo[ed] = num
+
+print(len(memo) - 1)
