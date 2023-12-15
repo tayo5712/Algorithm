@@ -1,0 +1,14 @@
+def com(depth, s):
+    if depth == n:
+        check[s] = 1
+        return
+    else:
+        com(depth + 1, s)
+        com(depth + 1, s + arr[depth])
+
+n = int(input())
+arr = list(map(int, input().split()))
+check = [0] * (sum(arr) + 2)
+com(0, 0)
+
+print(check.index(0))
