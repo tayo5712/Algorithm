@@ -1,0 +1,14 @@
+n, m = map(int, input().split())
+p = sorted(list(int(input()) for _ in range(m)), reverse = True)
+
+max_point = 0
+price = 0
+
+for i in range(min(n, m)):
+    profit = (i + 1) * p[i]
+    if profit > max_point:
+        max_point = profit
+        price = p[i]
+
+print(price, max_point)
+
