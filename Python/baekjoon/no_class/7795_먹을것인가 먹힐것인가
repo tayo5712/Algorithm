@@ -1,0 +1,25 @@
+def bi_sect(a, li):
+    st, ed = 0, len(li)-1
+    res = 0
+    while st <= ed:
+        mid = (st + ed) // 2
+        if a > li[mid]:
+            res = mid + 1
+            st = mid + 1
+        else:
+            ed = mid - 1
+    return res
+
+tc = int(input())
+
+for _ in range(tc):
+    N, M = map(int, input().split())
+    A = sorted(list(map(int, input().split())))
+    B = sorted(list(map(int, input().split())))
+
+    answer = 0
+
+    for a in A:
+        answer += bi_sect(a, B)
+
+    print(answer)
