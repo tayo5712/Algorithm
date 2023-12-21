@@ -1,0 +1,22 @@
+def dfs(depth, num):
+    global flag
+    if flag:
+        return
+    if 1 <= depth <= n:
+        for i in range(len(num)-1):
+            for j in range(1, len(num)//2 + 1):
+                if num[i:i+j] == num[i+j:i+j*2]:
+                    return
+
+    if depth == n:
+        print(num)
+        flag = True
+        return
+
+    else:
+        for k in (1, 2, 3):
+            dfs(depth+1, num + str(k))
+
+n = int(input())
+flag = False
+dfs(0, '')
