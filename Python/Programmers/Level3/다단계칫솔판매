@@ -1,0 +1,23 @@
+def dfs(tree, name, money):
+    if (name == "-"):
+        return
+    charge = int(money * 0.1)
+    sale = money - charge
+    tree[name][0] += sale
+    if charge >= 1:
+        dfs(tree, tree[name][1], charge) 
+    
+def solution(enroll, referral, seller, amount):
+    answer = []
+    Dadan = {"-":[0, "x"]}
+    for i in range(len(enroll)):
+        Dadan[enroll[i]] = [0, referral[i]]
+    
+    for j in range(len(seller)):
+        # 재귀가야할듯
+        dfs(Dadan, seller[j], amount[j] * 100)
+    for name in enroll:
+        answer.append(Dadan[name][0])
+    
+    return answer
+
