@@ -1,0 +1,26 @@
+def solution(info, edges):
+    
+    n = len(info)
+    visited = [0] * n
+    answer = []
+    
+    def dfs(sheep, wolf):
+        if sheep > wolf:
+            answer.append(sheep)
+        else:
+            return
+        
+        for p, c in edges:
+            if visited[p] and not visited[c]:
+                visited[c] = 1
+                if info[c]:
+                    dfs(sheep, wolf + 1)
+                else:
+                    dfs(sheep + 1, wolf)
+                visited[c] = 0
+    
+    visited[0] = 1
+    dfs(1, 0)
+
+    return max(answer)
+
