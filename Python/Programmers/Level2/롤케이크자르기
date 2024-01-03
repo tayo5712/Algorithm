@@ -1,0 +1,19 @@
+def solution(topping):
+    answer = 0
+    dict1 = dict()
+    dict2 = set()
+    # dict 처리해주기
+    for tp in topping:
+        if tp not in dict1:
+            dict1[tp] = 0
+        dict1[tp] += 1
+    
+    for i in range(len(topping)):
+        dict2.add(topping[i])
+        dict1[topping[i]] -= 1
+        if dict1[topping[i]] == 0:
+            dict1.pop(topping[i])
+        if len(dict1) == len(dict2):
+            answer += 1
+        
+    return answer
