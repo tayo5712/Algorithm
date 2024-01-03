@@ -1,0 +1,16 @@
+def solution(people, limit):
+    people.sort()
+    
+    answer = 0
+    lt = 0
+    rt = len(people) - 1
+    while lt <= rt:
+        total = people[lt] + people[rt]
+        if total > limit:
+            rt -= 1
+        else:
+            rt -= 1
+            lt += 1
+        answer += 1
+    
+    return answer
