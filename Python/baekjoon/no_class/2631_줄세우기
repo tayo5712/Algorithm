@@ -1,0 +1,12 @@
+n = int(input())
+arr = list(int(input()) for _ in range(n))
+length = [1] * n
+
+for i in range(n):
+    for j in range(0, i):
+        if arr[i] > arr[j]:
+            length[i] = max(length[i], length[j] + 1)
+
+print(n - max(length)) 
+
+
