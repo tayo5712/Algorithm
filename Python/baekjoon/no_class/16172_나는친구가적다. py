@@ -1,0 +1,5 @@
+word1 = input()
+for i in range(0, 10):
+    word1 = word1.replace(str(i), "")
+word2 = input()
+print(1 if word2 in word1 else 0)
