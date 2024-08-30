@@ -1,0 +1,27 @@
+from collections import deque
+
+def bfs(a, b):
+    q = deque()
+    q.append(a)
+    check[a] = 0
+    while q:
+        node = q.popleft()
+        if node == b:
+            return check[node]
+        for n in graph[node]:
+            if check[n] == -1:
+                q.append(n)
+                check[n] = check[node]+1
+    return -1
+    
+a, b = map(int, input().split())
+N, M = map(int, input().split())
+graph = [[] for _ in range(N+1)]
+for _ in range(M):
+    u, v = map(int, input().split())
+    if u == v:
+        continue
+    graph[u].append(v)
+    graph[v].append(u)
+check = [-1]*(N+1)
+print(bfs(a, b))
