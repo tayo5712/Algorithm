@@ -27,6 +27,7 @@ public class _02_12_멘토링_복습 {
                     if (arr[j][k] == i) break;
                 }
             }
+
             for (int j = 0; j < m; j++) {
                 if (check[j] == 0) answer++;
             }

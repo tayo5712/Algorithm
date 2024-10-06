@@ -30,6 +30,7 @@ public class _02_09_격자판최대합_복습 {
             }
             answer = Math.max(answer, Math.max(rowSum, columnSum));
         }
+
         answer = Math.max(answer, Math.max(rCross, lCross));
         System.out.println(answer);
     }

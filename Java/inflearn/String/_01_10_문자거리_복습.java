@@ -1,36 +1,39 @@
 package String;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Scanner;
+import java.util.StringTokenizer;
 
 public class _01_10_문자거리_복습 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String s = sc.next();
-        char t = sc.next().charAt(0);
-        int p = 101;
-        int[] answer = new int[s.length()];
-        for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == t) {
-                p = 0;
-                answer[i] = p;
-            }
-            else {
-                p += 1;
-                answer[i] = p;
-            }
-        }
-
-        p = 101;
-        for (int i = s.length()-1; i > -1; i--) {
-            if (s.charAt(i) == t) {
-                p = 0;
-            }
-            else {
-                p += 1;
-                answer[i] = Math.min(answer[i], p);
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        String s = st.nextToken();
+        int n = s.length();
+        char[] cc = s.toCharArray();
+        char target = st.nextToken().charAt(0);
+        int[] distance = new int[n];
+        int pos = 101;
+        for (int i = 0; i < n; i++) {
+            if (cc[i] == target) {
+                distance[i] = 0;
+                pos = i;
+            } else {
+                distance[i] = Math.abs(pos - i);
             }
         }
-        for (int i : answer) {
+        pos = 101;
+        for (int i = n - 1; i >= 0; i--) {
+            if (cc[i] == target) {
+                pos = i;
+            } else {
+                distance[i] = Math.min(distance[i], pos - i);
+            }
+        }
+        for (int i : distance) {
             System.out.print(i + " ");
         }
     }

@@ -6,12 +6,12 @@ public class _01_09_숫자만_추출_복습 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s = sc.next();
-        String result = "";
+        String ans = "";
         for (char c : s.toCharArray()) {
             if (Character.isDigit(c)) {
-                result += c;
+                ans += c;
             }
         }
-        System.out.println(Integer.parseInt(result));
+        System.out.println(Integer.parseInt(ans));
     }
 }

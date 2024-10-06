@@ -1,20 +1,9 @@
-n, mile = map(int, input().split())
-result = []
-for _ in range(n):
-    p, l = map(int, input().split())
-    lst = list(map(int, input().split()))
-    lst.sort(reverse=True)
+memo = {}
+def fibo(n):
+    if n == 1 or n == 2:
+        return 1
+    if n not in memo:
+        memo[n] = fibo(n - 1) + fibo(n - 2)
+    return memo[n]
 
-    if p < l:
-        result.append(1)
-    else:
-        result.append(lst[l - 1])
-result.sort()
-answer = 0
-for m in result:
-    if m <= mile:
-        answer += 1
-        mile -= m
-    else:
-        break
-print(answer)
+print(fibo(10))

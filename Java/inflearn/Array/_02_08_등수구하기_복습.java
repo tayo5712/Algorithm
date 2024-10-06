@@ -18,6 +18,7 @@ public class _02_08_등수구하기_복습 {
             }
             result[i] = rank;
         }
+
         for (int i : result) {
             System.out.print(i + " ");
         }

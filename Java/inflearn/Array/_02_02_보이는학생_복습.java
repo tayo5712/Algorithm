@@ -15,14 +15,14 @@ public class _02_02_보이는학생_복습 {
         for (int i = 0; i < n; i++) {
             arr[i] = Integer.parseInt(st.nextToken());
         }
-        int answer = 0;
-        int peek = 0;
-        for (int height : arr) {
-            if (peek < height) {
-                answer++;
-                peek = height;
+        int cnt = 1;
+        int tall = arr[0];
+        for (int i = 1; i < n; i++) {
+            if (arr[i] > tall) {
+                tall = arr[i];
+                cnt++;
             }
         }
-        System.out.println(answer);
+        System.out.println(cnt);
     }
 }

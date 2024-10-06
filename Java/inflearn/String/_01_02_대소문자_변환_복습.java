@@ -1,19 +1,17 @@
 package String;
 
-import java.util.Scanner;
+import java.io.*;
 
 public class _01_02_대소문자_변환_복습 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String word = sc.next();
-        String new_word = "";
-        for (char c : word.toCharArray()) {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        char[] cc = br.readLine().toCharArray();
+        for (char c : cc) {
             if (Character.isUpperCase(c)) {
-                new_word += Character.toLowerCase(c);
+                System.out.print(Character.toLowerCase(c));
             } else {
-                new_word += Character.toUpperCase(c);
+                System.out.print(Character.toUpperCase(c));
             }
         }
-        System.out.println(new_word);
     }
 }

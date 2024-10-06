@@ -15,7 +15,7 @@ public class _02_03_가위바위보_복습 {
             b[i] = sc.nextInt();
         }
         for (int i = 0; i < n; i++) {
-            //  1: 가위,  2: 바위,  3: 보
+            //  1: 가위,  2: 바위,  3: 보.
             if (a[i] == 1) {
                 if (b[i] == 1) System.out.println("D");
                 else if (b[i] == 2) System.out.println("B");

@@ -1,6 +1,5 @@
-package etc
+package etc;
 
-package Array;
 
 import java.io.BufferedReader;
 import java.io.IOException;

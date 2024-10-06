@@ -29,6 +29,7 @@ public class _02_11_임시반장정하기_복습 {
                     }
                 }
             }
+
             if (cnt > maxV) {
                 maxV = cnt;
                 answer = i + 1;

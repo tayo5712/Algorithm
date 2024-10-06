@@ -13,6 +13,7 @@ public class _02_07_점수계산_복습 {
             if (result == 1) answer += score++;
             else score = 1;
         }
+
         System.out.println(answer);
     }
 }
