@@ -1,26 +1,26 @@
-n = int(input())
-skills = list(input())
-answer = 0
-stack = []
+N = int(input())
+skill = input()
+cnt = 0
+Ls, Ss = 0, 0
 
-for skill in skills:
-    if skill.isdigit():
-        answer += 1
+for i in skill :
+    if i == 'L':
+        Ls += 1
+    elif i == 'R':
+        if Ls > 0:
+            cnt += 1
+            Ls -= 1
+        else:
+            break	
+    elif i == 'S':
+        Ss += 1
+    elif i == 'K':
+        if Ss > 0:
+            cnt += 1
+            Ss -= 1
+        else:
+            break
     else:
-        if skill == 'L':
-            stack.append(skill)
-        elif skill == 'S':
-            stack.append(skill)
-        elif skill == 'R':
-            if stack and stack[-1] == 'L':
-                stack.pop()
-                answer += 1
-            else:
-                stack.append(skill)
-        elif skill == 'K':
-            if stack and stack[-1] == 'S':
-                stack.pop()
-                answer += 1
-            else:
-                stack.append(skill)
-print(answer)
+        cnt += 1
+
+print(cnt)
