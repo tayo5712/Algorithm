@@ -3,7 +3,7 @@ package etc;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class _1292_쉽게푸는문제 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

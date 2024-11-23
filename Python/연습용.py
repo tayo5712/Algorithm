@@ -1,14 +1,13 @@
+arr = [0] * 1000001
 n, k = map(int, input().split())
-cats = sorted(list(map(int, input().split())))
-
-st = 0
-ed = n-1
-answer = 0
-while st < ed:
-    if cats[st] + cats[ed] <= k:
-        answer+=1
-        st +=1
-        ed -=1
-    else:
-        ed -=1
-print(answer)
+k = k * 2 + 1
+for i in range(n):
+    g, x = map(int, input().split())
+    arr[x] = g
+sumV, maxV = 0, 0
+for i in range(1000001):
+    if i-k >= 0:
+        sumV -= arr[i-k]
+    sumV += arr[i]
+    maxV = max(maxV, sumV)
+print(maxV)
