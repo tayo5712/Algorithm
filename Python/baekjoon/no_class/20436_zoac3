@@ -1,0 +1,22 @@
+def coordinate(char):
+    for i in range(3):
+        if char in keyboard[i]:
+            j = keyboard[i].index(char)
+            return (i, j)
+        
+keyboard = [['z', 'x', 'c', 'v', 'b', 'n', 'm'], ['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l'], ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p']]
+
+l, r = map(str, input().split())
+string = str(input())
+now = [coordinate(l), coordinate(r)]
+word = [coordinate(i) for i in string]
+
+sum = 0
+for char in word:
+    if (char[0] == 0 and char[1] >= 4) or char[1] >= 5:
+        sum += abs(now[1][0] - char[0]) + abs(now[1][1] - char[1]) + 1
+        now[1] = char
+    else:
+        sum += abs(now[0][0] - char[0]) + abs(now[0][1] - char[1]) + 1
+        now[0] = char
+print(sum)
